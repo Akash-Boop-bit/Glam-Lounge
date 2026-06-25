@@ -37,7 +37,7 @@ export default function Footer({ businessName }: FooterProps) {
             © {currentYear} {businessName}. All rights reserved.
           </p>
           <p className="text-[9px] text-ivory/30 tracking-widest uppercase font-semibold mt-1">
-            Design & Experience by Antigravity
+            Design & Experience by <a href="https://www.fallup.in" target="_blank" rel="noopener noreferrer">Akash Malik</a>
           </p>
         </div>
 
