@@ -114,7 +114,7 @@ export default function Contact({ contact }: ContactProps) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* Details & Interactive Form (Left) */}
-          <div ref={leftRef} className="lg:col-span-6">
+          <div  className="lg:col-span-6">
             <span className="text-cherry-300 text-[10px] tracking-[0.3em] font-semibold uppercase mb-4 block">
               Get in Touch
             </span>
@@ -226,7 +226,7 @@ export default function Contact({ contact }: ContactProps) {
           </div>
 
           {/* Interactive Google Map Embed Frame (Right) */}
-          <div ref={rightRef} className="lg:col-span-6 relative w-full h-[450px] rounded-3xl overflow-hidden border border-cherry-900/35 shadow-2xl">
+          <div  className="lg:col-span-6 relative w-full h-[450px] rounded-3xl overflow-hidden border border-cherry-900/35 shadow-2xl">
             <iframe
               src={contact.mapEmbedUrl}
               width="100%"

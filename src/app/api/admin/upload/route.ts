@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import { promises as fs } from 'fs';
-import path from 'path';
+import { uploadImage } from '@/lib/cloudinary';
 
 export async function POST(request: Request) {
   try {
@@ -32,21 +31,18 @@ export async function POST(request: Request) {
     // Convert file to buffer
     const buffer = Buffer.from(await file.arrayBuffer());
 
-    // Define destination folder in /public/uploads
-    const uploadDir = path.join(process.cwd(), 'public/uploads');
-    await fs.mkdir(uploadDir, { recursive: true });
+    // Upload to Cloudinary under 'glamlounge/uploads' folder
+    const result = await uploadImage(buffer, 'uploads');
 
-    // Clean and generate filename
-    const timestamp = Date.now();
-    const cleanName = file.name.replace(/[^a-zA-Z0-9.-]/g, '_');
-    const filename = `${timestamp}-${cleanName}`;
-    const filepath = path.join(uploadDir, filename);
+    if (!result || !result.secure_url) {
+      throw new Error('Cloudinary upload response did not return a valid URL.');
+    }
 
-    // Save image to filesystem
-    await fs.writeFile(filepath, buffer);
-
-    const imageUrl = `/uploads/${filename}`;
-    return NextResponse.json({ success: true, url: imageUrl });
+    return NextResponse.json({
+      success: true,
+      url: result.secure_url,
+      publicId: result.public_id
+    });
   } catch (error: any) {
     console.error('File upload error:', error);
     return NextResponse.json(
