@@ -30,6 +30,9 @@ export default function Portfolio({ gallery }: PortfolioProps) {
     { label: 'Hair Care', value: 'hair' },
     { label: 'Nails & Skin', value: 'nails' },
     { label: 'Academy', value: 'academy' },
+    { label: 'Engagement', value: 'engagement' },
+    { label: 'Reception', value: 'reception' },
+
   ];
 
   // Filter gallery items based on tag

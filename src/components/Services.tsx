@@ -194,7 +194,25 @@ export default function Services({ categories, whatsappNumber }: ServicesProps) 
             </div>
           ))}
         </div>
+          <DownloadPriceButton />
       </div>
     </section>
+  );
+}
+
+import { Download } from "lucide-react";
+
+const DownloadPriceButton = () => {
+  return (
+    <div className="flex justify-center px-4 py-8">
+      <a
+        href="/Glam-Lounge-Service-Prices.pdf"
+        download
+        className="group inline-flex items-center gap-3 rounded-full bg-red-600 px-8 py-4 text-white font-semibold text-base shadow-lg transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-red-500/30 active:scale-95"
+      >
+        <Download className="h-5 w-5 transition-transform duration-300 group-hover:-translate-y-0.5" />
+        <span>Download Service Price List</span>
+      </a>
+    </div>
   );
 }

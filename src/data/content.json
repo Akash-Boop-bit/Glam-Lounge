@@ -1,22 +1,21 @@
 {
   "business": {
-    "name": "Glam Lounge Luxury Salon",
     "rating": "5.0",
     "reviewsCount": "120+",
     "established": "2018",
     "instagramFollowers": "10,000+"
   },
   "homepage": {
-    "heroImage": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2",
     "headline": "Glam Lounge Luxury Salon",
     "punchline": "Best Bridal Makeup Artist in Panipat",
+    "heroImage": "/uploads/1782562820616-Screenshot_2026-06-27_at_5.49.53_PM.png",
     "aboutText": "Glam Lounge Luxury Salon is Model Town's premier unisex destination for high-end makeup, professional hair styling, and rejuvenating skin care. Founded by master artist Gul Arora, our salon combines international artistry standards learned in Canada and Singapore with a luxurious, relaxing atmosphere. We are dedicated to bringing out your unique beauty and confidence for every special occasion.",
-    "aboutImage": "https://images.unsplash.com/photo-1633681926035-ec1ac984418a"
+    "aboutImage": "/uploads/1782563776431-studio.jpeg"
   },
   "gulArora": {
     "name": "Gul Arora",
     "title": "Founder & Lead Makeup Artist",
-    "photo": "/uploads/1782388395963-Screenshot_2026-06-25_at_4.57.22_PM.png",
+    "photo": "/uploads/1782561675314-main.JPG",
     "bio": "Gul Arora is an HD bridal and party makeup specialist who has graduated from prestigious beauty academies in Canada and Singapore. Known for her flawless techniques and customized approach, He believes that every client has a unique story that can be highlighted beautifully through professional makeup artistry.",
     "whatsappNumber": "919359800006",
     "instagram": "https://instagram.com/makeup_by_gularora",
@@ -47,28 +46,28 @@
           "id": "bridal-makeup",
           "name": "Bridal Makeup",
           "description": "A signature service designed for brides, including traditional and contemporary looks tailored to individual features.",
-          "price": "On request",
+          "price": "18000",
           "image": "/uploads/1782387394047-Subhan_allah_Mua-__makeup_by_gularora__makeup__beauty__makeupartist__fashion__mua__love__makeupt.jpg"
         },
         {
           "id": "airbrush-makeup",
           "name": "Airbrush Makeup",
           "description": "Long-lasting, water-resistant, high-definition finish using a fine mist technique.",
-          "price": "On request",
-          "image": "/uploads/1782387387588-Screenshot_2026-06-25_at_5.01.41_PM.png"
+          "price": "25000",
+          "image": "/uploads/1782564537298-airbrush.jpeg"
         },
         {
           "id": "party-fashion-makeup",
-          "name": "Party & Fashion Makeup",
+          "name": "Party MakeUp Look",
           "description": "Professional styling for social gatherings or photo shoots to ensure a camera-ready glow.",
-          "price": "On request",
-          "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2"
+          "price": "3500-7000",
+          "image": "/uploads/1782562065546-partyLook.jpg"
         },
         {
           "id": "makeup-academy",
           "name": "Makeup Academy",
           "description": "Professional training courses for aspiring artists to master advanced makeup techniques.",
-          "price": "On request",
+          "price": "50000",
           "image": "/uploads/1782387459757-Screenshot_2026-06-25_at_5.03.32_PM.png"
         }
       ]
@@ -82,7 +81,7 @@
           "id": "haircut-men",
           "name": "Hair Cut (Men)",
           "description": "Professional grooming and modern styling.",
-          "price": "₹199 - ₹350",
+          "price": "300",
           "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1"
         },
         {
@@ -96,29 +95,43 @@
           "id": "hair-smoothening",
           "name": "Hair Smoothening",
           "description": "Chemical treatment that reduces frizz and adds a sleek, healthy shine.",
-          "price": "Starting ₹4,000",
-          "image": "https://images.unsplash.com/photo-1519699047748-de8e457a634e"
+          "price": "Starting ₹3,000",
+          "image": "/uploads/1782564726144-hair_smoothening.jpeg"
         },
         {
           "id": "hair-highlighting",
           "name": "Hair Highlighting",
           "description": "Adds dimension and depth through customized color placement.",
-          "price": "Starting ₹300",
+          "price": "2500 onwards",
           "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486"
         },
         {
           "id": "hair-styling",
           "name": "Hair Styling",
           "description": "Professional blow-outs or formal updos for special occasions.",
-          "price": "Starting ₹150",
+          "price": "Starting ₹700",
           "image": "/uploads/1782387833131-new-product.jpeg"
         },
         {
           "id": "hair-trimming",
           "name": "Hair Trimming",
           "description": "A quick service to maintain health and remove split ends.",
-          "price": "Starting ₹300",
+          "price": "Starting ₹250",
           "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a"
+        },
+        {
+          "id": "botox-1782561386285",
+          "name": "Botox",
+          "description": "Botox Protein Treatment deeply repairs damaged hair, reduces frizz, and restores softness, shine, and smoothness for healthier, more manageable hair.",
+          "price": "3000 onwards",
+          "image": "/uploads/1782561385292-botox.webp"
+        },
+        {
+          "id": "nano-plastia-1782561546906",
+          "name": "Nano Plastia",
+          "description": "Nano Plastia is an advanced hair-smoothing treatment that eliminates frizz, adds intense shine, and leaves hair silky, smooth, and easy to manage for weeks.",
+          "price": "3500 onwards",
+          "image": "/uploads/1782561545492-nanoplastia.png"
         }
       ]
     },
@@ -131,27 +144,45 @@
           "id": "acrylic-nails",
           "name": "Acrylic Nail Extensions",
           "description": "Durable and aesthetic extensions, customizable with colors and designs.",
-          "price": "On request",
+          "price": "1500 onwards",
           "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371"
         },
         {
           "id": "anti-tan-pedicure",
           "name": "Anti Tan Pedicure",
           "description": "A relaxing foot treatment that removes tan and dead skin while moisturizing deeply.",
-          "price": "On request",
+          "price": "1000",
           "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b"
         },
         {
           "id": "threading",
           "name": "Threading",
           "description": "Precise eyebrow and facial hair removal to define facial features.",
-          "price": "On request",
+          "price": "50",
           "image": "/uploads/1782387911610-threading.jpg"
         }
       ]
     }
   ],
   "gallery": [
+    {
+      "id": "gal-1782562714300",
+      "category": "reception",
+      "title": "Reception",
+      "image": "/uploads/1782562712876-reception.JPG"
+    },
+    {
+      "id": "gal-1782562652413",
+      "category": "engagement",
+      "title": "Engagement Look",
+      "image": "/uploads/1782562651105-Engagement.JPEG"
+    },
+    {
+      "id": "gal-1782562145135",
+      "category": "party",
+      "title": "Party Look",
+      "image": "/uploads/1782562136252-partyLook.jpg"
+    },
     {
       "id": "gal-1782388133732",
       "category": "hair",
@@ -181,12 +212,6 @@
       "category": "bridal",
       "title": "Modern HD Airbrush Finish",
       "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
-    },
-    {
-      "id": "gal-3",
-      "category": "party",
-      "title": "Glowy Evening Party Makeup",
-      "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2"
     },
     {
       "id": "gal-4",

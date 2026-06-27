@@ -32,6 +32,8 @@ export default function EditGallery() {
     { label: 'Hair Care & Styling', value: 'hair' },
     { label: 'Nails & Skin Care', value: 'nails' },
     { label: 'Makeup Academy', value: 'academy' },
+    { label: 'Engagement', value: 'engagement' },
+    { label: 'Reception', value: 'reception' },
   ];
 
   useEffect(() => {

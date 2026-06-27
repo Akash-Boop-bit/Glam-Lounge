@@ -142,7 +142,7 @@ export default function Hero({
 
         {/* Headline */}
         <h1
-          ref={titleRef}
+          // ref={titleRef}
           className="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-ivory mb-6 leading-[1.1] text-gold-gradient"
         >
           {headline}
