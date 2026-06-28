@@ -222,6 +222,20 @@ export default function Contact({ contact }: ContactProps) {
                   </a>
                 </div>
               </div>
+              <div className="flex items-start space-x-4">
+                <InstagramIcon size={18} className="text-cherry-500 shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="text-[10px] uppercase tracking-wider text-white font-bold mb-1">Follow Instagram</h4>
+                  <a
+                    href={"https://www.instagram.com/glam_lounge_by_gautam?utm_source=qr"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-gold hover:text-white transition-colors font-medium"
+                  >
+                    @Glam_Lounge_by_Gautam
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
