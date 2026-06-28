@@ -19,11 +19,11 @@ export async function POST(request: Request) {
       );
     }
 
-    // Validate size (5MB max)
-    const maxSize = 5 * 1024 * 1024;
+    // Validate size (20MB max)
+    const maxSize = 20 * 1024 * 1024;
     if (file.size > maxSize) {
       return NextResponse.json(
-        { success: false, error: 'File size exceeds 5MB limit.' },
+        { success: false, error: 'File size exceeds 20MB limit.' },
         { status: 400 }
       );
     }
